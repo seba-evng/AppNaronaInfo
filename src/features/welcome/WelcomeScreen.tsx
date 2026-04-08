@@ -86,7 +86,6 @@ export default function WelcomeScreen({ onGetStarted }: WelcomeScreenProps) {
               size={20}
               color={colors.textOnPrimary}
               strokeWidth={2}
-              style={styles.ctaIcon}
             />
             <Text style={styles.ctaButtonText}>Comenzar</Text>
           </TouchableOpacity>
@@ -213,9 +212,6 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.35,
     shadowRadius: 10,
     elevation: 6,
-  },
-  ctaIcon: {
-    marginRight: 2,
   },
   ctaButtonText: {
     fontSize: 17,
