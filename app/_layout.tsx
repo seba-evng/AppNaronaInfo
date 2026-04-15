@@ -1,5 +1,5 @@
 import { Tabs } from "expo-router";
-import { Users, Box, Workflow, FileText } from "lucide-react-native";
+import { Box, FileText, Users, Workflow } from "lucide-react-native";
 import React from "react";
 
 export default function Layout() {
