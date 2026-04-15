@@ -1,9 +1,10 @@
 import { ScrollView, Text, View } from "react-native";
 import {Cpu,Bot,Gamepad2,Brain,Thermometer,Radar,Cog,} from "lucide-react-native";
 import React from "react";
-
+import { SafeAreaView } from "react-native-safe-area-context";
 export default function TesisScreen() {
   return (
+  <SafeAreaView className="flex-1 bg-[#0A0A0F]">
     <ScrollView className="flex-1 bg-[#0A0A0F] px-5 pt-6">
       {/* Título */}
       <Text className="text-white text-2xl font-semibold mb-2">
@@ -106,8 +107,9 @@ export default function TesisScreen() {
 
       {/* Footer */}
       <Text className="text-center text-white/20 text-xs mb-6">
-        Proyecto académico · Informática
+        Proyecto académico · Informática · UETS
       </Text>
     </ScrollView>
+    </SafeAreaView>
   );
 }
