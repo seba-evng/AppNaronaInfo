@@ -27,8 +27,6 @@ AppNaronaInfo es una aplicación desarrollada en TypeScript que proporciona func
 
 <img width="280" height="640" alt="Image" src="https://github.com/user-attachments/assets/462f6c38-ded5-42f5-84d5-15f914eadc7c" />
 
-*Reemplaza `./demo.gif` con la ruta o URL de tu archivo GIF*
-
 ## 🚀 Instalación
 
 ```bash
