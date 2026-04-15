@@ -1,50 +1,74 @@
-# Welcome to your Expo app 👋
+# AppNaronaInfo
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Una aplicación TypeScript para gestionar información de Narona.
 
-## Get started
+## 📋 Tabla de Contenidos
 
-1. Install dependencies
+- [Descripción](#descripción)
+- [Características](#características)
+- [Demostración](#demostración)
+- [Instalación](#instalación)
+- [Uso](#uso)
+- [Contribuir](#contribuir)
+- [Licencia](#licencia)
 
-   ```bash
-   npm install
-   ```
+## 📝 Descripción
 
-2. Start the app
+AppNaronaInfo es una aplicación desarrollada en TypeScript que proporciona funcionalidades para gestionar y acceder a información sobre Narona.
 
-   ```bash
-   npx expo start
-   ```
+## ✨ Características
 
-In the output, you'll find options to open the app in a
+- Interfaz intuitiva y fácil de usar
+- Gestión eficiente de datos
+- Soporte para operaciones CRUD
+- Rendimiento optimizado
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🎬 Demostración
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+<img width="280" height="640" alt="Image" src="https://github.com/user-attachments/assets/462f6c38-ded5-42f5-84d5-15f914eadc7c" />
 
-## Get a fresh project
+*Reemplaza `./demo.gif` con la ruta o URL de tu archivo GIF*
 
-When you're ready, run:
+## 🚀 Instalación
 
 ```bash
-npm run reset-project
+# Clonar el repositorio
+git clone https://github.com/seba-evng/AppNaronaInfo.git
+
+# Navegar al directorio
+cd AppNaronaInfo
+
+# Instalar dependencias
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 📖 Uso
 
-## Learn more
+```bash
+# Iniciar la aplicación
+npm start
 
-To learn more about developing your project with Expo, look at the following resources:
+# Ejecutar en modo desarrollo
+npm run dev
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+# Compilar TypeScript
+npm run build
+```
 
-## Join the community
+## 🤝 Contribuir
 
-Join our community of developers creating universal apps.
+Las contribuciones son bienvenidas. Por favor:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+1. Fork el proyecto
+2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
+3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abre un Pull Request
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
+
+---
+
+**Autor:** [seba-evng](https://github.com/seba-evng)
